@@ -10,8 +10,6 @@ A responsive and interactive AI chatbot web application powered by **Google Gemi
 |----------------|--------------|-------------|
 | ![Chat UI](screenshots/chat.png) | ![Emoji](screenshots/emoji.png) | ![File Upload](screenshots/fileupload.png) |
 
-> *(Add actual screenshots in a `screenshots/` folder for better visualization)*
-
 ---
 
 ## 🚀 Features
