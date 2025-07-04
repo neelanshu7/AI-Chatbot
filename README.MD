@@ -1,1 +1,44 @@
-AI-Chatbot
+# 🤖 AI Chatbot with Gemini API
+
+A responsive and interactive AI chatbot web application powered by **Google Gemini API**. This project combines modern HTML, CSS, and JavaScript to simulate real-time chat conversations with an AI, supporting features like loading animations, emoji picker, file upload, chat history, and a chatbot popup.
+
+## 🌐 Live Demo
+
+**🚧 Coming Soon**
+
+## 📸 Screenshots
+
+| Chat Interface | Emoji Picker | File Upload |
+|----------------|--------------|-------------|
+| ![Chat UI](screenshots/chat.png) | ![Emoji](screenshots/emoji.png) | ![File Upload](screenshots/fileupload.png) |
+
+> *(Add actual screenshots in a `screenshots/` folder for better visualization)*
+
+---
+
+## 🚀 Features
+
+- 💬 Real-time AI Responses via **Gemini API**
+- ✨ Beautiful Chat UI with responsive design
+- ⏳ Loading animation while waiting for AI
+- 📁 File Upload Support
+- 😄 Emoji Picker Integration
+- 🧠 Chat History Retention
+- 🪄 Popup Chatbot Toggle
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **AI API**: Google Gemini API (via API key)
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/neelanshu7/AI-Chatbot.git
+   cd AI-Chatbot
