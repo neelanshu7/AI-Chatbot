@@ -48,5 +48,17 @@ A responsive and interactive AI chatbot web application powered by **Google Gemi
    ```bash
    const API_KEY = "your_gemini_api_key_here";
 
-2. **Run the Web App**
+2. **Run the Web App**<br>
    Simply open index.html in your browser.
+
+🧪 Project Structure
+   ```bash
+AI-Chatbot/
+│
+├── index.html          # Main UI
+├── style.css           # Styling file
+├── script.js           # Core JavaScript logic
+├── emoji-picker.js     # (Optional) Emoji picker logic
+├── assets/             # Icons, images
+└── screenshots/        # UI Screenshots (for README)
+
