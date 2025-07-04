@@ -2,7 +2,7 @@
 
 A responsive and interactive AI chatbot web application powered by **Google Gemini API**. This project combines modern HTML, CSS, and JavaScript to simulate real-time chat conversations with an AI, supporting features like loading animations, emoji picker, file upload, chat history, and a chatbot popup.
 
-## 🌐 Live Website: [Website Link](https://aichatbot-liart-ten.vercel.app/)
+## 🌐 Live Website: [AI Chatbot](https://aichatbot-liart-ten.vercel.app/)
 
 ## 📸 Screenshots
 
