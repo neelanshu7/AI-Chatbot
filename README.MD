@@ -4,7 +4,7 @@ A responsive and interactive AI chatbot web application powered by **Google Gemi
 
 ## 🌐 Live Website: [AI Chatbot](https://aichatbot-liart-ten.vercel.app/)
 
-## 🎬 Sample Video: [Video Link](https://drive.google.com/file/d/1cIiCMZzYux8HUHzfiNzVZ0Sjqnp1ddGT/view?usp=sharing)
+## 🎬 Sample Video: [Video](https://drive.google.com/file/d/1cIiCMZzYux8HUHzfiNzVZ0Sjqnp1ddGT/view?usp=sharing)
 
 ## 📸 Screenshots
 
