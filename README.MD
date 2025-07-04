@@ -42,3 +42,11 @@ A responsive and interactive AI chatbot web application powered by **Google Gemi
    ```bash
    git clone https://github.com/neelanshu7/AI-Chatbot.git
    cd AI-Chatbot
+
+2. **Replace Gemini API Key**
+
+   ```bash
+   const API_KEY = "your_gemini_api_key_here";
+
+2. **Run the Web App**
+   Simply open index.html in your browser.
