@@ -49,7 +49,7 @@ A responsive and interactive AI chatbot web application powered by **Google Gemi
 3. **Run the Web App**<br>
    Simply open index.html in your browser.
 
-🧪 Project Structure
+## 🧪 Project Structure
    ```bash
 AI-Chatbot/
 │
@@ -59,7 +59,7 @@ AI-Chatbot/
 └── screenshots/        # UI Screenshots (for README)
    ```
 
-🔗 Important Links
+## 🔗 Important Links
    🧠 Text Generation API (Gemini): https://ai.google.dev/gemini-api/docs/text-generation<br>
    🔐 Get your Gemini API Key: https://ai.google.dev/gemini-api/docs<br>
    🎨 Browse Google Fonts: https://fonts.google.com/<br>
