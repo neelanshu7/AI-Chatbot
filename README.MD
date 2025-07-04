@@ -46,7 +46,7 @@ A responsive and interactive AI chatbot web application powered by **Google Gemi
    ```bash
    const API_KEY = "your_gemini_api_key_here";
 
-2. **Run the Web App**<br>
+3. **Run the Web App**<br>
    Simply open index.html in your browser.
 
 🧪 Project Structure
@@ -57,6 +57,7 @@ AI-Chatbot/
 ├── style.css           # Styling file
 ├── script.js           # Core JavaScript logic
 └── screenshots/        # UI Screenshots (for README)
+
 
 🔗 Important Links
    🧠 Text Generation API (Gemini): https://ai.google.dev/gemini-api/docs/text-generation
