@@ -58,7 +58,5 @@ AI-Chatbot/
 ├── index.html          # Main UI
 ├── style.css           # Styling file
 ├── script.js           # Core JavaScript logic
-├── emoji-picker.js     # (Optional) Emoji picker logic
-├── assets/             # Icons, images
 └── screenshots/        # UI Screenshots (for README)
 
