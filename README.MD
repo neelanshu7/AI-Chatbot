@@ -57,7 +57,7 @@ AI-Chatbot/
 ├── style.css           # Styling file
 ├── script.js           # Core JavaScript logic
 └── screenshots/        # UI Screenshots (for README)
-
+   ```
 
 🔗 Important Links
    🧠 Text Generation API (Gemini): https://ai.google.dev/gemini-api/docs/text-generation
