@@ -63,3 +63,4 @@ AI-Chatbot/
    🧠 Text Generation API (Gemini): https://ai.google.dev/gemini-api/docs/text-generation<br>
    🔐 Get your Gemini API Key: https://ai.google.dev/gemini-api/docs<br>
    🎨 Browse Google Fonts: https://fonts.google.com/<br>
+
