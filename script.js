@@ -38,19 +38,6 @@ const generateBotResponse = async (incomingMessageDiv) => {
                         }] : [])
                     ]
                 });
-    // chatHistory.push({
-    //                 role: "user",
-    //                 parts: [
-    //                     { text: userData.message },
-    //                     ...(userData.file.data ? [{
-    //                         inline_data: {
-    //                         mime_type: userData.file.mime_type,
-    //                         data: userData.file.data
-    //                     }
-    //                     }] : [])
-    //                 ]
-    //             });
-    // API request options with corrected payload
     const requestOptions = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -87,9 +74,9 @@ const generateBotResponse = async (incomingMessageDiv) => {
 const handleOutgoingMessage = (e) => {
     e.preventDefault(); // prevent form submission/reload
     userData.message=messageInput.value.trim();
-    messageInput.value = ""; // Clear the input after sending
+    messageInput.value = ""; // Clearing the input after sending
     fileUploadWrapper.classList.remove("file-uploaded");
-    // Code to fix script input (e.g. "<h2>Hello World</h2>") 
+    
     const messageContent = `<div class="message-text"></div>${userData.file.data ? `<img src="data:${userData.file.mime_type};base64,${userData.file.data}" class="attachment"/>` : ""}`;
 
     const outgoingMessageDiv=createMessageElement(messageContent, "user-message");
@@ -114,7 +101,6 @@ const handleOutgoingMessage = (e) => {
         generateBotResponse(incomingMessageDiv);
     },600); // Simulate a delay for the bot response
 };
-// const chatForm = document.querySelector(".chat-form");
 // Handle the send message button click
 messageInput.addEventListener("keydown", (e) => {
     const userMessage = e.target.value.trim();
@@ -128,17 +114,6 @@ messageInput.addEventListener("input", () => {
     messageInput.style.height = `${messageInput.scrollHeight}px`
     document.querySelector(".chat-form").style.borderRadius = messageInput.scrollHeight > initialInputHeight ? "15px" : "32px";
 });
-// Optional: Handle the form's submit button (arrow button)
-/*
-chatForm.addEventListener("submit", (e) => {
-    e.preventDefault(); // prevent form submission/reload
-    const userMessage = messageInput.value.trim();
-    if (userMessage) {
-        console.log("Form Submit Message:", userMessage);
-        messageInput.value = "";
-    }
-});
-*/
 
 fileInput.addEventListener("change",() => {
     const file =fileInput.files[0];
@@ -148,7 +123,7 @@ fileInput.addEventListener("change",() => {
         fileUploadWrapper.querySelector("img").src=e.target.result;
         fileUploadWrapper.classList.add("file-uploaded");
         const base64String=e.target.result.split(",")[1];
-        // Store dile data in userData object
+        // Store file data in userData object
         userData.file={
         data:base64String,
         mime_type:file.type
@@ -159,10 +134,10 @@ reader.readAsDataURL(file);
 });
 // Cancel file upload 
 fileCancelButton.addEventListener("click", () => {
-    userData.file={}; // Clear the file data
+    userData.file={}; // Clearing the file data
     fileUploadWrapper.classList.remove("file-uploaded");
 });
-// Initializing the Emoji Picker and handle emoji selection
+// Emoji Picker
 const picker = new EmojiMart.Picker({
     theme: "light",
     skinTonePosition: "none",
@@ -185,4 +160,5 @@ document.querySelector(".chat-form").appendChild(picker);
 sendMessageButton.addEventListener("click", (e)=> handleOutgoingMessage(e));
 document.querySelector("#file-upload").addEventListener("click", () => fileInput.click())
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
 closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
